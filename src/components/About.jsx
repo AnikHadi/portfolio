@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 /* eslint-disable react/no-unknown-property */
 import { motion } from "framer-motion";
 import React from "react";
@@ -44,15 +45,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in JavaScript, and
-        expertise in frameworks like{" "}
-        <strong>
-          React.js, Next.js, Node.js, Three.js, Redux, React-Redux,
-          Redux-toolkit, Redux-Query, Express.js and MongoDB with mongoose
-        </strong>
-        . I'm a quick learner and collaborate closely with clients to create
-        efficient, scalable, and user-friendly solutions that solve real-world
-        problems. Let's work together to bring your ideas to life!
+        I'm a skilled software developer with experience in{" "}
+        <strong>JavaScript, Python, Node.js</strong> and expertise in frameworks
+        like <strong>React.js, Next.js, Redux, Express.js</strong> and Library
+        Three.js and other and database MongoDB with mongoose . I'm a quick
+        learner and collaborate closely with clients to create efficient,
+        scalable, and user-friendly solutions that solve real-world problems.
+        Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

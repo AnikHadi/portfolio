@@ -2,7 +2,7 @@ import "./App.css";
 import {
   About,
   Contact,
-  Experience,
+  // Experience,
   Feedbacks,
   Hero,
   Navbar,
@@ -19,7 +19,7 @@ const App = () => {
         <Hero />
       </div>
       <About />
-      <Experience />
+      {/* <Experience /> */}
       <Tech />
       <Works />
       <Feedbacks />

@@ -1,9 +1,9 @@
 import {
   backend,
   carrent,
-  creator,
   css,
-  docker,
+  expressjs,
+  // docker,
   figma,
   git,
   html,
@@ -12,7 +12,10 @@ import {
   meta,
   mobile,
   mongodb,
+  nextjs,
   nodejs,
+  python,
+  pythonL,
   reactjs,
   redux,
   shopify,
@@ -21,7 +24,7 @@ import {
   tesla,
   threejs,
   tripguide,
-  typescript,
+  // typescript,
   web,
 } from "../assets";
 
@@ -46,16 +49,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
     title: "Backend Developer",
     icon: backend,
   },
   {
-    title: "Content Creator",
-    icon: creator,
+    title: "Python Programmer",
+    icon: python,
+  },
+  {
+    title: "React Native Developer",
+    icon: mobile,
   },
 ];
 
@@ -73,12 +76,24 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: pythonL,
   },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Next JS",
+    icon: nextjs,
+  },
+  {
+    name: "Express JS",
+    icon: expressjs,
   },
   {
     name: "Redux Toolkit",
@@ -108,10 +123,10 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  // {
+  //   name: "docker",
+  //   icon: docker,
+  // },
 ];
 
 const experiences = [
@@ -262,4 +277,4 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { experiences, projects, services, technologies, testimonials };
