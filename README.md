@@ -4,11 +4,11 @@ Portfolio website
 
 ## Authors
 
-- [Hadiuzzaman](https://www.github.com/HadiAnik)
+- [Hadiuzzaman](https://www.github.com/AnikHadi)
 
 ## Documentation
 
-[Live Project](https://64863f156225df57513f7344--shimmering-sawine-08b53e.netlify.app/)
+[Live Project](https://hadiuzzaman.netlify.app/)
 
 ## How to run
 
@@ -19,7 +19,7 @@ Please follow the below instructions to run this project in your machine:
 - Clone this repository -
 
 ```bash
-  git clone https://github.com/HadiAnik/portfolio.git
+  git clone https://github.com/AnikHadi/portfolio.git
 ```
 
 - Go to the cloned project directory

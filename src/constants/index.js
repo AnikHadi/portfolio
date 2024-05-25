@@ -24,7 +24,7 @@ import {
   tesla,
   threejs,
   tripguide,
-  // typescript,
+  typescript,
   web,
 } from "../assets";
 
@@ -79,10 +79,10 @@ const technologies = [
     name: "Python",
     icon: pythonL,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "React JS",
     icon: reactjs,
